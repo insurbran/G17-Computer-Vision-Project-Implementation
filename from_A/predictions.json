@@ -1,0 +1,3309 @@
+{
+  "schema_version": 1,
+  "generated": "2026-07-17T15:03:58+00:00",
+  "model": "best.pt",
+  "run": "baseline3",
+  "conf_threshold": 0.25,
+  "iou_threshold": 0.7,
+  "classes": [
+    "Anchovies",
+    "Boiled-Egg",
+    "Char-Kuey-Teow",
+    "Chicken-Rendang",
+    "Curry-Puff",
+    "Fried-Chicken",
+    "Fried-Egg",
+    "Fried-Rice",
+    "Hokkien-Mee",
+    "Lo-Mein",
+    "Mee-Rebus",
+    "Mee-Siam",
+    "Peanuts",
+    "Rice",
+    "Roti-Canai",
+    "Sambal",
+    "Slices-Cucumber"
+  ],
+  "predictions": [
+    {
+      "image_id": "10_webp.rf.e29ba1799e124d5a6aa6c6f59f040beb.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.5682,
+          "xyxy": [
+            0.0,
+            106.02,
+            319.35,
+            313.37
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.3858,
+          "xyxy": [
+            0.45,
+            0.07,
+            167.63,
+            71.47
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "11_webp.rf.7e0faa1eee6a29f7d9a0819dbeb9baa8.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.9363,
+          "xyxy": [
+            69.62,
+            63.06,
+            319.73,
+            250.01
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "13_jpg.rf.ac3a5faaafd2e352ed164b8f3c6f5f38.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.7149,
+          "xyxy": [
+            31.94,
+            107.88,
+            233.54,
+            247.71
+          ]
+        },
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.4067,
+          "xyxy": [
+            32.25,
+            108.1,
+            234.41,
+            247.91
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "14_webp.rf.f7afa160222f2bf1a5c37a565f5929e8.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.8244,
+          "xyxy": [
+            59.52,
+            84.37,
+            257.46,
+            302.14
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "16_jpg.rf.dceeb41479a7e12ff656956a1fb3858a.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Roti-Canai",
+          "class_id": 14,
+          "conf": 0.9608,
+          "xyxy": [
+            158.89,
+            64.06,
+            319.76,
+            320.0
+          ]
+        },
+        {
+          "class": "Roti-Canai",
+          "class_id": 14,
+          "conf": 0.954,
+          "xyxy": [
+            10.79,
+            54.25,
+            148.8,
+            288.7
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "19_jpg.rf.b8b90de64b4b570adcc6f878817f827b.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.9753,
+          "xyxy": [
+            2.27,
+            39.74,
+            318.25,
+            279.06
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "19_png.rf.2774cfbe0a2bf73c7a70a1a16f42a500.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9377,
+          "xyxy": [
+            8.39,
+            64.23,
+            140.66,
+            223.19
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9069,
+          "xyxy": [
+            75.61,
+            143.04,
+            275.62,
+            275.44
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.7462,
+          "xyxy": [
+            122.31,
+            56.61,
+            280.98,
+            172.22
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "19_png.rf.8ff97659400b7081e72ba39a9f1ed27a.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.965,
+          "xyxy": [
+            43.61,
+            30.41,
+            283.18,
+            275.39
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "1_jpg.rf.a4f211e4a2081394944d702d82207fdd.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.704,
+          "xyxy": [
+            1.88,
+            29.44,
+            319.66,
+            313.26
+          ]
+        },
+        {
+          "class": "Hokkien-Mee",
+          "class_id": 8,
+          "conf": 0.6761,
+          "xyxy": [
+            1.17,
+            30.89,
+            319.71,
+            311.32
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "1_webp.rf.add2ccec42df6dc10070f64fa732d868.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.9699,
+          "xyxy": [
+            0.0,
+            11.2,
+            319.09,
+            320.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "20_jpg.rf.f8652ec57857cb2ed3bd66d66f61bb7d.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.9552,
+          "xyxy": [
+            17.44,
+            23.07,
+            303.67,
+            296.14
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "21_jpeg.rf.44c9905392855001dbc4ad873e188879.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.8683,
+          "xyxy": [
+            150.73,
+            123.79,
+            191.67,
+            182.66
+          ]
+        },
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.3018,
+          "xyxy": [
+            33.06,
+            61.44,
+            295.43,
+            280.73
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "21_jpg.rf.6630e3564ee329233bb26a1e0601e722.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.9433,
+          "xyxy": [
+            65.56,
+            20.53,
+            317.92,
+            318.82
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "21_jpg.rf.9c0aff28c8a487b20f614ad9bf9d1677.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9798,
+          "xyxy": [
+            193.79,
+            125.71,
+            303.36,
+            218.83
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9707,
+          "xyxy": [
+            0.13,
+            163.85,
+            106.54,
+            266.97
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9624,
+          "xyxy": [
+            145.17,
+            185.06,
+            242.41,
+            299.43
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9417,
+          "xyxy": [
+            66.29,
+            211.81,
+            158.09,
+            319.98
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.8855,
+          "xyxy": [
+            0.0,
+            87.04,
+            91.67,
+            177.23
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.7822,
+          "xyxy": [
+            203.78,
+            50.93,
+            289.74,
+            139.08
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.6043,
+          "xyxy": [
+            91.99,
+            57.76,
+            153.17,
+            211.52
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "22_jpg.rf.cbf2669ce8ff9e21035ca55adc6cf387.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.9206,
+          "xyxy": [
+            0.48,
+            79.65,
+            222.45,
+            320.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "23_jpeg.rf.cae188a8355dd7fe3055a889d887217e.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Hokkien-Mee",
+          "class_id": 8,
+          "conf": 0.9187,
+          "xyxy": [
+            0.0,
+            76.68,
+            319.86,
+            300.49
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "24_jpg.rf.04114faddcd3ec3d805681f1b79ef4c8.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Char-Kuey-Teow",
+          "class_id": 2,
+          "conf": 0.9014,
+          "xyxy": [
+            71.78,
+            20.24,
+            276.92,
+            281.22
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.6496,
+          "xyxy": [
+            0.0,
+            251.82,
+            23.32,
+            314.8
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "24_webp.rf.e611224961c2b2fb370aeb7075bd8140.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9247,
+          "xyxy": [
+            77.1,
+            95.94,
+            193.1,
+            224.52
+          ]
+        },
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.8009,
+          "xyxy": [
+            34.35,
+            48.89,
+            279.06,
+            301.19
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.4165,
+          "xyxy": [
+            43.46,
+            82.44,
+            193.29,
+            224.36
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "26_png.rf.a13ae887ca4fd2a17d218a67ff50d22a.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Roti-Canai",
+          "class_id": 14,
+          "conf": 0.948,
+          "xyxy": [
+            29.43,
+            33.98,
+            297.1,
+            257.96
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "27_webp.rf.c54844473e366c5e95922cc29c13bcba.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Hokkien-Mee",
+          "class_id": 8,
+          "conf": 0.8083,
+          "xyxy": [
+            0.37,
+            65.37,
+            277.23,
+            269.71
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "31_jpg.rf.ddb5759115850cdbab9cbbdf92ff49d6.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Char-Kuey-Teow",
+          "class_id": 2,
+          "conf": 0.9578,
+          "xyxy": [
+            63.28,
+            113.73,
+            271.37,
+            257.81
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "35_jpeg.rf.f5a1a15b794b02128584b72bacc74f4b.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.8775,
+          "xyxy": [
+            150.85,
+            66.87,
+            252.86,
+            266.88
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.8605,
+          "xyxy": [
+            44.89,
+            26.18,
+            168.93,
+            297.81
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.2568,
+          "xyxy": [
+            4.21,
+            213.36,
+            89.69,
+            298.66
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "35_jpg.rf.b792532df466c7108506ab446aef7b08.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.8296,
+          "xyxy": [
+            43.94,
+            37.36,
+            194.49,
+            226.6
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "36_jpg.rf.5c6ff949cbfe81436c29d46f3e55c03f.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.4294,
+          "xyxy": [
+            71.51,
+            27.14,
+            241.24,
+            265.44
+          ]
+        },
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.4262,
+          "xyxy": [
+            72.04,
+            27.61,
+            238.71,
+            291.15
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "38_jpeg.rf.b779705fa7b6d53402c35d3674d135af.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.9722,
+          "xyxy": [
+            0.0,
+            12.51,
+            319.47,
+            304.72
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "39_jpg.rf.ab5f598c4397b041d6f1a3400e4db631.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Char-Kuey-Teow",
+          "class_id": 2,
+          "conf": 0.9536,
+          "xyxy": [
+            47.96,
+            30.72,
+            273.66,
+            245.44
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "41_jpg.rf.3202306dfc02156a529cb2bb0e675d3f.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.9071,
+          "xyxy": [
+            5.5,
+            4.66,
+            318.24,
+            275.48
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "42_jpeg.rf.eb4e55aa2e27f60ea593f7c89d9f6e84.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Hokkien-Mee",
+          "class_id": 8,
+          "conf": 0.9317,
+          "xyxy": [
+            62.84,
+            62.92,
+            248.2,
+            271.34
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "43_jpg.rf.25ab37a97381949ba9220dcffce18f22.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9545,
+          "xyxy": [
+            90.64,
+            75.25,
+            210.64,
+            150.11
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9488,
+          "xyxy": [
+            206.96,
+            173.84,
+            319.84,
+            241.5
+          ]
+        },
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.7554,
+          "xyxy": [
+            87.37,
+            68.61,
+            299.06,
+            234.81
+          ]
+        },
+        {
+          "class": "Chicken-Rendang",
+          "class_id": 3,
+          "conf": 0.5994,
+          "xyxy": [
+            15.04,
+            35.66,
+            205.98,
+            169.96
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.5497,
+          "xyxy": [
+            0.01,
+            51.41,
+            30.45,
+            149.64
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.2732,
+          "xyxy": [
+            171.48,
+            227.6,
+            205.49,
+            251.24
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.2691,
+          "xyxy": [
+            90.91,
+            67.35,
+            299.68,
+            232.26
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "44_jpg.rf.a42b2dec44efd885d2f35772badead6d.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Hokkien-Mee",
+          "class_id": 8,
+          "conf": 0.9552,
+          "xyxy": [
+            31.22,
+            41.95,
+            255.87,
+            304.94
+          ]
+        },
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.3121,
+          "xyxy": [
+            191.6,
+            3.6,
+            304.99,
+            44.09
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "44_jpg.rf.f0b7fe9740b4d3dd2e8a6400aeb3b336.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.8809,
+          "xyxy": [
+            34.89,
+            105.97,
+            290.82,
+            315.9
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "45_jpg.rf.2d78fa1c430631901da032ed241abdcf.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.9671,
+          "xyxy": [
+            99.55,
+            12.85,
+            310.14,
+            295.14
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "45_jpg.rf.e68c1287aa92b9d023aa7c11d9d18265.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.987,
+          "xyxy": [
+            0.0,
+            30.28,
+            319.84,
+            305.66
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "4_jpg.rf.3cdac5af335499e15d084d5d0b718380.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9728,
+          "xyxy": [
+            82.18,
+            90.49,
+            176.22,
+            189.87
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9676,
+          "xyxy": [
+            14.78,
+            41.82,
+            157.07,
+            175.23
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9632,
+          "xyxy": [
+            77.03,
+            155.47,
+            274.25,
+            251.97
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.8595,
+          "xyxy": [
+            127.65,
+            32.35,
+            240.12,
+            124.59
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.8265,
+          "xyxy": [
+            166.84,
+            98.01,
+            319.29,
+            182.81
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.3835,
+          "xyxy": [
+            236.27,
+            261.41,
+            320.0,
+            320.0
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.3506,
+          "xyxy": [
+            0.0,
+            0.01,
+            56.77,
+            81.84
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "50_jpg.rf.fffac78dfef3c29668ef5079d6c7b409.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Roti-Canai",
+          "class_id": 14,
+          "conf": 0.8395,
+          "xyxy": [
+            1.91,
+            27.2,
+            219.43,
+            318.6
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "51_jpg.rf.4797976df89732863de77689f7451942.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9228,
+          "xyxy": [
+            90.06,
+            78.15,
+            142.26,
+            175.78
+          ]
+        },
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.8681,
+          "xyxy": [
+            50.35,
+            36.36,
+            287.78,
+            276.4
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "52_jpg.rf.4772d2f3034273abc0632b1b2bf7726e.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Char-Kuey-Teow",
+          "class_id": 2,
+          "conf": 0.8826,
+          "xyxy": [
+            6.1,
+            100.13,
+            261.18,
+            292.59
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "55_jpg.rf.add3e874d57d4d10cefb125215c595c2.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9801,
+          "xyxy": [
+            0.0,
+            137.8,
+            238.92,
+            279.44
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9235,
+          "xyxy": [
+            40.47,
+            69.73,
+            286.24,
+            195.32
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "56_jpg.rf.78d8efcd88616817f6e0e67bce008554.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.9796,
+          "xyxy": [
+            4.53,
+            148.54,
+            303.02,
+            301.23
+          ]
+        },
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.9611,
+          "xyxy": [
+            143.27,
+            32.35,
+            319.55,
+            106.97
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "59_webp.rf.83a4012af9c89d1876f725e75b55d381.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.8298,
+          "xyxy": [
+            0.79,
+            3.14,
+            295.59,
+            246.8
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "5_jpg.rf.7fb6ad9aac4bd893ddefec31394c64bb.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9478,
+          "xyxy": [
+            49.88,
+            194.94,
+            235.96,
+            263.4
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9372,
+          "xyxy": [
+            33.11,
+            112.3,
+            270.8,
+            164.3
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9231,
+          "xyxy": [
+            193.47,
+            147.84,
+            319.64,
+            205.56
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.8854,
+          "xyxy": [
+            24.25,
+            163.11,
+            138.57,
+            212.25
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.8087,
+          "xyxy": [
+            190.91,
+            155.62,
+            277.81,
+            251.69
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.6096,
+          "xyxy": [
+            34.98,
+            112.32,
+            291.83,
+            184.16
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.4544,
+          "xyxy": [
+            34.92,
+            114.14,
+            188.76,
+            186.56
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "5_jpg.rf.c142f67762a2463c24636efc7742ec36.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Roti-Canai",
+          "class_id": 14,
+          "conf": 0.9717,
+          "xyxy": [
+            30.21,
+            69.0,
+            299.41,
+            274.64
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "5_jpg.rf.e8eedb6c2682416a7f294facda5926a4.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.9168,
+          "xyxy": [
+            0.47,
+            12.32,
+            320.0,
+            316.43
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "61_jpg.rf.cc3cd36c0112a472f5d6e473bd650520.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.9789,
+          "xyxy": [
+            51.36,
+            43.55,
+            318.65,
+            318.63
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "63_jpg.rf.028b72bed2420806ea9d41b4961f17c7.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.9498,
+          "xyxy": [
+            5.92,
+            0.22,
+            320.0,
+            239.83
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.468,
+          "xyxy": [
+            163.35,
+            192.16,
+            320.0,
+            319.95
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "63_jpg.rf.3b7a8ca59cf8665eb18f49b5fb5b2115.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Hokkien-Mee",
+          "class_id": 8,
+          "conf": 0.9279,
+          "xyxy": [
+            1.05,
+            2.97,
+            319.36,
+            287.29
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "64_jpeg.rf.e0895d62356cf28b386071d1fab1d37f.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.8416,
+          "xyxy": [
+            157.02,
+            53.04,
+            281.2,
+            137.57
+          ]
+        },
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.6175,
+          "xyxy": [
+            59.97,
+            55.51,
+            309.49,
+            220.76
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "65_jpeg.rf.2aae27e83384779c01a6b6a8db881f7c.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.9446,
+          "xyxy": [
+            78.59,
+            73.16,
+            313.79,
+            277.91
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "65_jpg.rf.618d5e7099308a8ead03889160a18209.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.8802,
+          "xyxy": [
+            31.77,
+            30.66,
+            316.2,
+            320.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "67_jpeg.rf.5ecf8c9e7e875bd7333d7e87e9d360de.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.3956,
+          "xyxy": [
+            83.42,
+            72.29,
+            236.48,
+            254.34
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.3319,
+          "xyxy": [
+            82.42,
+            71.95,
+            236.56,
+            256.58
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "67_jpg.rf.5e87d9a97722df02b5cc4d9805bb28f4.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.9401,
+          "xyxy": [
+            0.0,
+            129.63,
+            315.99,
+            295.16
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.7866,
+          "xyxy": [
+            49.1,
+            147.99,
+            152.6,
+            229.4
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.5532,
+          "xyxy": [
+            5.78,
+            147.95,
+            152.72,
+            265.52
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "68_png.rf.01e793bdf9741b2a9f5a486ae3200fc9.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.9601,
+          "xyxy": [
+            0.0,
+            43.03,
+            319.73,
+            288.77
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9392,
+          "xyxy": [
+            116.26,
+            117.04,
+            184.9,
+            169.27
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "68_webp.rf.4e3279ebf1cbe0bca6dc122fb817d1dd.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9873,
+          "xyxy": [
+            204.42,
+            18.79,
+            286.48,
+            124.16
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9562,
+          "xyxy": [
+            10.7,
+            141.3,
+            124.87,
+            296.37
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.9477,
+          "xyxy": [
+            169.19,
+            47.17,
+            247.98,
+            153.91
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.8117,
+          "xyxy": [
+            140.67,
+            63.7,
+            222.2,
+            194.5
+          ]
+        },
+        {
+          "class": "Curry-Puff",
+          "class_id": 4,
+          "conf": 0.806,
+          "xyxy": [
+            80.98,
+            112.9,
+            166.2,
+            231.45
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "69_jpg.rf.6cce9ce593c358625936bed1da2ccf18.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9733,
+          "xyxy": [
+            239.7,
+            114.3,
+            311.17,
+            243.94
+          ]
+        },
+        {
+          "class": "Fried-Egg",
+          "class_id": 6,
+          "conf": 0.9091,
+          "xyxy": [
+            122.92,
+            85.79,
+            242.11,
+            183.34
+          ]
+        },
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.7219,
+          "xyxy": [
+            105.61,
+            91.16,
+            259.86,
+            310.38
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "70_jpg.rf.5478c816ded208ce78e419c88d5ebdfd.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Fried-Rice",
+          "class_id": 7,
+          "conf": 0.8415,
+          "xyxy": [
+            49.95,
+            13.93,
+            203.14,
+            316.73
+          ]
+        },
+        {
+          "class": "Fried-Egg",
+          "class_id": 6,
+          "conf": 0.8346,
+          "xyxy": [
+            44.57,
+            15.39,
+            182.48,
+            178.95
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "72_jpg.rf.b0ea21b59cf738f2894158b83f016c78.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.5964,
+          "xyxy": [
+            43.08,
+            83.33,
+            228.77,
+            240.72
+          ]
+        },
+        {
+          "class": "Mee-Siam",
+          "class_id": 11,
+          "conf": 0.4765,
+          "xyxy": [
+            43.69,
+            83.1,
+            228.57,
+            239.97
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "74_webp.rf.324ab668e8608e9ec735f72937c218bb.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.9794,
+          "xyxy": [
+            0.73,
+            0.12,
+            242.96,
+            320.0
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "8_jpg.rf.3486db9def33ac3071f31aaf8615da5c.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.6787,
+          "xyxy": [
+            181.03,
+            140.9,
+            288.84,
+            279.21
+          ]
+        },
+        {
+          "class": "Roti-Canai",
+          "class_id": 14,
+          "conf": 0.6629,
+          "xyxy": [
+            17.88,
+            137.43,
+            153.07,
+            319.55
+          ]
+        },
+        {
+          "class": "Roti-Canai",
+          "class_id": 14,
+          "conf": 0.5603,
+          "xyxy": [
+            180.73,
+            140.77,
+            289.17,
+            279.6
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9637,
+          "xyxy": [
+            229.35,
+            174.23,
+            288.49,
+            261.18
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.958,
+          "xyxy": [
+            170.86,
+            112.35,
+            238.79,
+            220.64
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9498,
+          "xyxy": [
+            87.04,
+            104.15,
+            134.01,
+            219.63
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9269,
+          "xyxy": [
+            200.21,
+            214.01,
+            254.86,
+            302.57
+          ]
+        },
+        {
+          "class": "Fried-Chicken",
+          "class_id": 5,
+          "conf": 0.9104,
+          "xyxy": [
+            127.02,
+            34.37,
+            216.92,
+            156.35
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.7909,
+          "xyxy": [
+            216.39,
+            65.93,
+            281.72,
+            185.83
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.6851,
+          "xyxy": [
+            198.36,
+            82.79,
+            253.96,
+            212.4
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.623,
+          "xyxy": [
+            120.42,
+            111.89,
+            218.96,
+            291.12
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.6066,
+          "xyxy": [
+            127.12,
+            122.03,
+            177.75,
+            203.47
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.5242,
+          "xyxy": [
+            175.13,
+            82.58,
+            253.18,
+            206.79
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.2679,
+          "xyxy": [
+            126.61,
+            100.97,
+            225.78,
+            207.25
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "fried34_jpg.rf.37744e1626b9491c42812a8ab2fa3cff.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.8788,
+          "xyxy": [
+            0.0,
+            212.82,
+            83.93,
+            268.11
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.8455,
+          "xyxy": [
+            52.05,
+            210.56,
+            196.01,
+            278.69
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.7884,
+          "xyxy": [
+            193.69,
+            230.17,
+            292.61,
+            273.86
+          ]
+        },
+        {
+          "class": "Roti-Canai",
+          "class_id": 14,
+          "conf": 0.4921,
+          "xyxy": [
+            179.14,
+            35.78,
+            319.85,
+            131.07
+          ]
+        },
+        {
+          "class": "Chicken-Rendang",
+          "class_id": 3,
+          "conf": 0.4484,
+          "xyxy": [
+            49.58,
+            155.27,
+            199.14,
+            231.52
+          ]
+        },
+        {
+          "class": "Fried-Chicken",
+          "class_id": 5,
+          "conf": 0.2981,
+          "xyxy": [
+            49.49,
+            155.67,
+            199.1,
+            230.67
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "fried48_jpg.rf.4d732d39643731779359386fa5bf2b79.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9849,
+          "xyxy": [
+            164.47,
+            164.98,
+            242.48,
+            250.47
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9498,
+          "xyxy": [
+            7.14,
+            118.13,
+            97.38,
+            190.47
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9469,
+          "xyxy": [
+            44.57,
+            189.31,
+            217.6,
+            280.24
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.945,
+          "xyxy": [
+            16.38,
+            82.45,
+            93.28,
+            139.66
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9444,
+          "xyxy": [
+            88.75,
+            61.31,
+            229.11,
+            192.4
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.8306,
+          "xyxy": [
+            22.94,
+            158.36,
+            101.42,
+            238.37
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "fried64_jpg.rf.9d5de1613cc70ed31f49d8106f8daa5d.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9721,
+          "xyxy": [
+            128.25,
+            41.61,
+            184.52,
+            151.21
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9717,
+          "xyxy": [
+            51.72,
+            55.9,
+            145.7,
+            217.65
+          ]
+        },
+        {
+          "class": "Fried-Chicken",
+          "class_id": 5,
+          "conf": 0.8944,
+          "xyxy": [
+            49.83,
+            0.07,
+            135.03,
+            75.16
+          ]
+        },
+        {
+          "class": "Fried-Chicken",
+          "class_id": 5,
+          "conf": 0.8366,
+          "xyxy": [
+            40.39,
+            152.49,
+            194.75,
+            320.0
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.8139,
+          "xyxy": [
+            8.45,
+            56.73,
+            145.26,
+            220.11
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "fried6_jpg.rf.b1f98f67fdf3b7cf92493bc38a7fe563.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9702,
+          "xyxy": [
+            131.48,
+            7.3,
+            225.92,
+            106.13
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9673,
+          "xyxy": [
+            138.42,
+            233.66,
+            203.65,
+            320.0
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9659,
+          "xyxy": [
+            73.43,
+            186.28,
+            143.32,
+            313.03
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9539,
+          "xyxy": [
+            84.69,
+            20.77,
+            140.94,
+            88.27
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9385,
+          "xyxy": [
+            108.34,
+            60.87,
+            212.3,
+            232.25
+          ]
+        },
+        {
+          "class": "Fried-Chicken",
+          "class_id": 5,
+          "conf": 0.931,
+          "xyxy": [
+            183.21,
+            26.33,
+            302.51,
+            282.63
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9264,
+          "xyxy": [
+            42.71,
+            70.72,
+            115.38,
+            204.41
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.3686,
+          "xyxy": [
+            296.82,
+            0.0,
+            320.0,
+            90.18
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.3242,
+          "xyxy": [
+            0.0,
+            111.62,
+            23.41,
+            204.21
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9653,
+          "xyxy": [
+            121.23,
+            53.79,
+            232.65,
+            119.33
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9534,
+          "xyxy": [
+            111.57,
+            87.35,
+            224.11,
+            230.16
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9226,
+          "xyxy": [
+            111.25,
+            213.29,
+            164.25,
+            280.31
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9158,
+          "xyxy": [
+            156.98,
+            209.99,
+            219.25,
+            293.72
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9158,
+          "xyxy": [
+            43.78,
+            86.95,
+            126.89,
+            164.95
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9042,
+          "xyxy": [
+            144.9,
+            85.89,
+            198.04,
+            146.74
+          ]
+        },
+        {
+          "class": "Fried-Egg",
+          "class_id": 6,
+          "conf": 0.8341,
+          "xyxy": [
+            26.14,
+            148.71,
+            127.45,
+            265.06
+          ]
+        },
+        {
+          "class": "Fried-Chicken",
+          "class_id": 5,
+          "conf": 0.8032,
+          "xyxy": [
+            196.92,
+            124.47,
+            293.03,
+            273.98
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "plain10_jpg.rf.21927fe4e929db2eb1283676a8d6c2f8.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9555,
+          "xyxy": [
+            166.48,
+            62.03,
+            242.25,
+            182.29
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9526,
+          "xyxy": [
+            175.98,
+            160.93,
+            245.66,
+            287.34
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9504,
+          "xyxy": [
+            95.62,
+            120.21,
+            189.63,
+            278.6
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9381,
+          "xyxy": [
+            174.26,
+            4.22,
+            225.97,
+            113.01
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9006,
+          "xyxy": [
+            0.06,
+            146.96,
+            40.09,
+            267.92
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.7123,
+          "xyxy": [
+            120.12,
+            20.45,
+            175.01,
+            126.55
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.4591,
+          "xyxy": [
+            0.0,
+            283.3,
+            54.5,
+            319.97
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "plain1_jpeg.rf.9fbb783e2deb6af4893fc8f1c10666d2.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9891,
+          "xyxy": [
+            135.22,
+            109.87,
+            232.5,
+            222.02
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9731,
+          "xyxy": [
+            116.92,
+            190.2,
+            260.88,
+            294.13
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9644,
+          "xyxy": [
+            67.91,
+            139.75,
+            150.6,
+            267.51
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9571,
+          "xyxy": [
+            104.79,
+            0.81,
+            214.22,
+            137.35
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9557,
+          "xyxy": [
+            215.22,
+            86.12,
+            279.36,
+            176.25
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9458,
+          "xyxy": [
+            27.16,
+            82.39,
+            114.6,
+            205.86
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9799,
+          "xyxy": [
+            46.02,
+            117.33,
+            106.43,
+            164.18
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9676,
+          "xyxy": [
+            94.81,
+            112.47,
+            218.96,
+            210.34
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9671,
+          "xyxy": [
+            212.98,
+            132.0,
+            265.79,
+            187.05
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9454,
+          "xyxy": [
+            172.03,
+            71.58,
+            274.25,
+            144.42
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9442,
+          "xyxy": [
+            42.3,
+            160.44,
+            156.16,
+            220.51
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9331,
+          "xyxy": [
+            79.56,
+            72.62,
+            174.38,
+            127.89
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9296,
+          "xyxy": [
+            73.99,
+            259.25,
+            112.12,
+            295.41
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.7813,
+          "xyxy": [
+            16.75,
+            244.22,
+            58.3,
+            279.46
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.7681,
+          "xyxy": [
+            16.55,
+            244.34,
+            66.91,
+            302.85
+          ]
+        },
+        {
+          "class": "Lo-Mein",
+          "class_id": 9,
+          "conf": 0.4925,
+          "xyxy": [
+            0.04,
+            5.67,
+            45.66,
+            80.6
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "plain39_jpg.rf.3dbd8b5266e0bc893f0cb130c2c63036.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9742,
+          "xyxy": [
+            57.69,
+            64.82,
+            124.76,
+            211.29
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9155,
+          "xyxy": [
+            89.38,
+            192.39,
+            234.47,
+            265.35
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.8699,
+          "xyxy": [
+            109.92,
+            95.99,
+            215.39,
+            225.62
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.5088,
+          "xyxy": [
+            154.88,
+            23.3,
+            268.19,
+            200.69
+          ]
+        },
+        {
+          "class": "Mee-Rebus",
+          "class_id": 10,
+          "conf": 0.3168,
+          "xyxy": [
+            88.88,
+            67.51,
+            217.07,
+            228.03
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "plain58_jpg.rf.7b2020c76a17039db777e3865fcab7ae.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9843,
+          "xyxy": [
+            169.55,
+            134.4,
+            257.59,
+            193.03
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9766,
+          "xyxy": [
+            82.49,
+            119.35,
+            172.52,
+            167.9
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.971,
+          "xyxy": [
+            96.37,
+            163.34,
+            206.85,
+            235.39
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9653,
+          "xyxy": [
+            18.96,
+            156.43,
+            113.56,
+            253.1
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.9439,
+          "xyxy": [
+            131.12,
+            232.01,
+            197.42,
+            277.84
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9417,
+          "xyxy": [
+            193.05,
+            205.5,
+            270.03,
+            254.62
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "plain60_webp.rf.44f6e28f0f4867cf55d413ddaea7d82c.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9696,
+          "xyxy": [
+            112.26,
+            121.46,
+            214.86,
+            265.2
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9466,
+          "xyxy": [
+            113.55,
+            54.23,
+            163.13,
+            120.98
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9325,
+          "xyxy": [
+            155.01,
+            47.27,
+            212.81,
+            112.65
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.8606,
+          "xyxy": [
+            191.5,
+            87.34,
+            241.87,
+            155.09
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.6608,
+          "xyxy": [
+            73.74,
+            96.92,
+            123.8,
+            183.22
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "rendang12_jpg.rf.9dbe6c447e212ee9582edf4dde9f5569.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Chicken-Rendang",
+          "class_id": 3,
+          "conf": 0.8918,
+          "xyxy": [
+            22.38,
+            114.65,
+            316.97,
+            301.18
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.7655,
+          "xyxy": [
+            117.35,
+            23.68,
+            286.0,
+            168.95
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.7037,
+          "xyxy": [
+            76.6,
+            36.89,
+            129.54,
+            89.74
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "rendang17_jpeg.rf.03052dd3874f2f280a94fd791dde935f.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Chicken-Rendang",
+          "class_id": 3,
+          "conf": 0.9096,
+          "xyxy": [
+            0.0,
+            115.93,
+            249.03,
+            241.86
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.8951,
+          "xyxy": [
+            205.78,
+            83.88,
+            280.57,
+            120.83
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.8814,
+          "xyxy": [
+            268.64,
+            162.11,
+            320.0,
+            216.22
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.8591,
+          "xyxy": [
+            150.54,
+            207.71,
+            294.94,
+            272.51
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.8095,
+          "xyxy": [
+            100.82,
+            61.77,
+            203.78,
+            111.05
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.7277,
+          "xyxy": [
+            99.58,
+            99.61,
+            278.18,
+            243.88
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.5488,
+          "xyxy": [
+            256.6,
+            103.1,
+            319.95,
+            165.08
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "rendang31_jpg.rf.706620a50d2d42ea7f9d3498e8f0d65b.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Chicken-Rendang",
+          "class_id": 3,
+          "conf": 0.9747,
+          "xyxy": [
+            0.02,
+            65.34,
+            152.39,
+            195.09
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.9658,
+          "xyxy": [
+            165.61,
+            73.71,
+            289.72,
+            162.18
+          ]
+        },
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9571,
+          "xyxy": [
+            25.33,
+            188.81,
+            116.5,
+            247.72
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9508,
+          "xyxy": [
+            79.89,
+            229.91,
+            161.63,
+            299.04
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9459,
+          "xyxy": [
+            248.26,
+            149.93,
+            320.0,
+            267.75
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.8033,
+          "xyxy": [
+            117.33,
+            170.94,
+            258.18,
+            282.78
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.352,
+          "xyxy": [
+            116.17,
+            119.56,
+            257.21,
+            282.48
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "rendang46_jpg.rf.967adac9ec22e155ca85e2ea12b0b289.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.9883,
+          "xyxy": [
+            8.74,
+            115.41,
+            93.28,
+            211.76
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.974,
+          "xyxy": [
+            85.83,
+            64.77,
+            217.46,
+            204.25
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9604,
+          "xyxy": [
+            76.18,
+            192.71,
+            99.12,
+            214.9
+          ]
+        },
+        {
+          "class": "Chicken-Rendang",
+          "class_id": 3,
+          "conf": 0.9066,
+          "xyxy": [
+            174.65,
+            45.26,
+            306.25,
+            187.09
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.6674,
+          "xyxy": [
+            102.34,
+            194.11,
+            203.8,
+            254.01
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.587,
+          "xyxy": [
+            39.11,
+            194.35,
+            203.55,
+            257.26
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.4099,
+          "xyxy": [
+            38.58,
+            193.95,
+            203.4,
+            259.45
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.2968,
+          "xyxy": [
+            98.95,
+            236.03,
+            242.28,
+            300.35
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "rendang57_webp.rf.1982140177e2fa9e89dd682a7937522f.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Chicken-Rendang",
+          "class_id": 3,
+          "conf": 0.9444,
+          "xyxy": [
+            153.51,
+            108.47,
+            278.19,
+            225.2
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.637,
+          "xyxy": [
+            83.59,
+            164.29,
+            173.94,
+            252.17
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.6061,
+          "xyxy": [
+            170.92,
+            183.11,
+            239.4,
+            235.45
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.314,
+          "xyxy": [
+            68.49,
+            238.6,
+            95.35,
+            262.55
+          ]
+        }
+      ]
+    },
+    {
+      "image_id": "rendang62_jpg.rf.a28570796e760745bf06f74281be4f76.jpg",
+      "image_size": [
+        320,
+        320
+      ],
+      "boxes": [
+        {
+          "class": "Boiled-Egg",
+          "class_id": 1,
+          "conf": 0.991,
+          "xyxy": [
+            68.11,
+            213.94,
+            167.72,
+            301.16
+          ]
+        },
+        {
+          "class": "Rice",
+          "class_id": 13,
+          "conf": 0.9815,
+          "xyxy": [
+            79.3,
+            97.81,
+            220.4,
+            232.25
+          ]
+        },
+        {
+          "class": "Peanuts",
+          "class_id": 12,
+          "conf": 0.9566,
+          "xyxy": [
+            10.98,
+            159.87,
+            97.64,
+            242.17
+          ]
+        },
+        {
+          "class": "Slices-Cucumber",
+          "class_id": 16,
+          "conf": 0.9462,
+          "xyxy": [
+            164.94,
+            204.52,
+            277.79,
+            319.46
+          ]
+        },
+        {
+          "class": "Anchovies",
+          "class_id": 0,
+          "conf": 0.8557,
+          "xyxy": [
+            21.45,
+            50.32,
+            122.33,
+            168.65
+          ]
+        },
+        {
+          "class": "Fried-Chicken",
+          "class_id": 5,
+          "conf": 0.6761,
+          "xyxy": [
+            116.11,
+            30.46,
+            315.63,
+            208.51
+          ]
+        },
+        {
+          "class": "Fried-Chicken",
+          "class_id": 5,
+          "conf": 0.6303,
+          "xyxy": [
+            177.94,
+            31.13,
+            315.64,
+            208.58
+          ]
+        },
+        {
+          "class": "Sambal",
+          "class_id": 15,
+          "conf": 0.3667,
+          "xyxy": [
+            103.17,
+            14.67,
+            219.71,
+            97.97
+          ]
+        }
+      ]
+    }
+  ]
+}

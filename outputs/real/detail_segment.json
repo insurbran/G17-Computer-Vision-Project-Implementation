@@ -1,0 +1,1955 @@
+[
+  {
+    "file": "10_webp.rf.e29ba1799e124d5a6aa6c6f59f040beb.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.5682,
+    "portion_factor": 0.605,
+    "kcal": 272.2,
+    "food_frac": 0.393,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "11_webp.rf.7e0faa1eee6a29f7d9a0819dbeb9baa8.jpg",
+    "class_name": "Fried-Rice",
+    "confidence": 0.9363,
+    "portion_factor": 0.769,
+    "kcal": 442.8,
+    "food_frac": 0.5,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "13_jpg.rf.ac3a5faaafd2e352ed164b8f3c6f5f38.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.7149,
+    "portion_factor": 0.933,
+    "kcal": 647.8,
+    "food_frac": 0.607,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "13_jpg.rf.ac3a5faaafd2e352ed164b8f3c6f5f38.jpg",
+    "class_name": "Fried-Rice",
+    "confidence": 0.4067,
+    "portion_factor": 0.915,
+    "kcal": 527.1,
+    "food_frac": 0.595,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "14_webp.rf.f7afa160222f2bf1a5c37a565f5929e8.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.8244,
+    "portion_factor": 0.976,
+    "kcal": 677.6,
+    "food_frac": 0.635,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "16_jpg.rf.dceeb41479a7e12ff656956a1fb3858a.jpg",
+    "class_name": "Roti-Canai",
+    "confidence": 0.9608,
+    "portion_factor": 1.263,
+    "kcal": 378.9,
+    "food_frac": 0.821,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "16_jpg.rf.dceeb41479a7e12ff656956a1fb3858a.jpg",
+    "class_name": "Roti-Canai",
+    "confidence": 0.954,
+    "portion_factor": 0.993,
+    "kcal": 297.9,
+    "food_frac": 0.646,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "19_jpg.rf.b8b90de64b4b570adcc6f878817f827b.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.9753,
+    "portion_factor": 1.027,
+    "kcal": 462.2,
+    "food_frac": 0.668,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "19_png.rf.2774cfbe0a2bf73c7a70a1a16f42a500.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9377,
+    "portion_factor": 0.679,
+    "kcal": 88.2,
+    "food_frac": 0.441,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "19_png.rf.2774cfbe0a2bf73c7a70a1a16f42a500.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9069,
+    "portion_factor": 0.733,
+    "kcal": 95.3,
+    "food_frac": 0.477,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "19_png.rf.2774cfbe0a2bf73c7a70a1a16f42a500.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.7462,
+    "portion_factor": 0.709,
+    "kcal": 92.2,
+    "food_frac": 0.461,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "19_png.rf.8ff97659400b7081e72ba39a9f1ed27a.jpg",
+    "class_name": "Mee-Rebus",
+    "confidence": 0.965,
+    "portion_factor": 0.689,
+    "kcal": 393.5,
+    "food_frac": 0.448,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "1_jpg.rf.a4f211e4a2081394944d702d82207fdd.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.704,
+    "portion_factor": 0.885,
+    "kcal": 398.3,
+    "food_frac": 0.575,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "1_jpg.rf.a4f211e4a2081394944d702d82207fdd.jpg",
+    "class_name": "Hokkien-Mee",
+    "confidence": 0.6761,
+    "portion_factor": 0.794,
+    "kcal": 414.5,
+    "food_frac": 0.516,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "1_webp.rf.add2ccec42df6dc10070f64fa732d868.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.9699,
+    "portion_factor": 0.947,
+    "kcal": 426.0,
+    "food_frac": 0.615,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "20_jpg.rf.f8652ec57857cb2ed3bd66d66f61bb7d.jpg",
+    "class_name": "Mee-Rebus",
+    "confidence": 0.9552,
+    "portion_factor": 0.773,
+    "kcal": 441.6,
+    "food_frac": 0.503,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "21_jpeg.rf.44c9905392855001dbc4ad873e188879.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.8683,
+    "portion_factor": 1.001,
+    "kcal": 78.1,
+    "food_frac": 0.651,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "21_jpg.rf.6630e3564ee329233bb26a1e0601e722.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.9433,
+    "portion_factor": 0.664,
+    "kcal": 460.5,
+    "food_frac": 0.431,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "21_jpg.rf.9c0aff28c8a487b20f614ad9bf9d1677.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9798,
+    "portion_factor": 1.251,
+    "kcal": 162.7,
+    "food_frac": 0.813,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "21_jpg.rf.9c0aff28c8a487b20f614ad9bf9d1677.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9707,
+    "portion_factor": 1.034,
+    "kcal": 134.5,
+    "food_frac": 0.672,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "21_jpg.rf.9c0aff28c8a487b20f614ad9bf9d1677.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9624,
+    "portion_factor": 0.858,
+    "kcal": 111.6,
+    "food_frac": 0.558,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "21_jpg.rf.9c0aff28c8a487b20f614ad9bf9d1677.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9417,
+    "portion_factor": 1.073,
+    "kcal": 139.6,
+    "food_frac": 0.698,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "21_jpg.rf.9c0aff28c8a487b20f614ad9bf9d1677.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.8855,
+    "portion_factor": 1.01,
+    "kcal": 131.3,
+    "food_frac": 0.656,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "21_jpg.rf.9c0aff28c8a487b20f614ad9bf9d1677.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.7822,
+    "portion_factor": 1.058,
+    "kcal": 137.5,
+    "food_frac": 0.688,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "21_jpg.rf.9c0aff28c8a487b20f614ad9bf9d1677.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.6043,
+    "portion_factor": 0.733,
+    "kcal": 95.3,
+    "food_frac": 0.476,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "22_jpg.rf.cbf2669ce8ff9e21035ca55adc6cf387.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.9206,
+    "portion_factor": 0.795,
+    "kcal": 552.0,
+    "food_frac": 0.517,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "23_jpeg.rf.cae188a8355dd7fe3055a889d887217e.jpg",
+    "class_name": "Hokkien-Mee",
+    "confidence": 0.9187,
+    "portion_factor": 0.606,
+    "kcal": 316.2,
+    "food_frac": 0.394,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "24_jpg.rf.04114faddcd3ec3d805681f1b79ef4c8.jpg",
+    "class_name": "Char-Kuey-Teow",
+    "confidence": 0.9014,
+    "portion_factor": 0.766,
+    "kcal": 570.6,
+    "food_frac": 0.498,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "24_jpg.rf.04114faddcd3ec3d805681f1b79ef4c8.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.6496,
+    "portion_factor": 0.5,
+    "kcal": 39.0,
+    "food_frac": 0.293,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "24_webp.rf.e611224961c2b2fb370aeb7075bd8140.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9247,
+    "portion_factor": 0.723,
+    "kcal": 56.4,
+    "food_frac": 0.47,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "24_webp.rf.e611224961c2b2fb370aeb7075bd8140.jpg",
+    "class_name": "Mee-Rebus",
+    "confidence": 0.8009,
+    "portion_factor": 0.5,
+    "kcal": 285.5,
+    "food_frac": 0.221,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "24_webp.rf.e611224961c2b2fb370aeb7075bd8140.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.4165,
+    "portion_factor": 0.592,
+    "kcal": 46.2,
+    "food_frac": 0.385,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "26_png.rf.a13ae887ca4fd2a17d218a67ff50d22a.jpg",
+    "class_name": "Roti-Canai",
+    "confidence": 0.948,
+    "portion_factor": 0.951,
+    "kcal": 285.2,
+    "food_frac": 0.618,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "27_webp.rf.c54844473e366c5e95922cc29c13bcba.jpg",
+    "class_name": "Hokkien-Mee",
+    "confidence": 0.8083,
+    "portion_factor": 0.94,
+    "kcal": 490.9,
+    "food_frac": 0.611,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "31_jpg.rf.ddb5759115850cdbab9cbbdf92ff49d6.jpg",
+    "class_name": "Char-Kuey-Teow",
+    "confidence": 0.9578,
+    "portion_factor": 0.972,
+    "kcal": 723.9,
+    "food_frac": 0.632,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "35_jpeg.rf.f5a1a15b794b02128584b72bacc74f4b.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.8775,
+    "portion_factor": 0.783,
+    "kcal": 101.7,
+    "food_frac": 0.509,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "35_jpeg.rf.f5a1a15b794b02128584b72bacc74f4b.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.8605,
+    "portion_factor": 0.914,
+    "kcal": 118.8,
+    "food_frac": 0.594,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "35_jpg.rf.b792532df466c7108506ab446aef7b08.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.8296,
+    "portion_factor": 0.5,
+    "kcal": 347.0,
+    "food_frac": 0.323,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "36_jpg.rf.5c6ff949cbfe81436c29d46f3e55c03f.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.4294,
+    "portion_factor": 0.883,
+    "kcal": 612.6,
+    "food_frac": 0.574,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "36_jpg.rf.5c6ff949cbfe81436c29d46f3e55c03f.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.4262,
+    "portion_factor": 0.869,
+    "kcal": 390.9,
+    "food_frac": 0.565,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "38_jpeg.rf.b779705fa7b6d53402c35d3674d135af.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.9722,
+    "portion_factor": 1.273,
+    "kcal": 572.7,
+    "food_frac": 0.827,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "39_jpg.rf.ab5f598c4397b041d6f1a3400e4db631.jpg",
+    "class_name": "Char-Kuey-Teow",
+    "confidence": 0.9536,
+    "portion_factor": 0.87,
+    "kcal": 648.2,
+    "food_frac": 0.566,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "41_jpg.rf.3202306dfc02156a529cb2bb0e675d3f.jpg",
+    "class_name": "Mee-Rebus",
+    "confidence": 0.9071,
+    "portion_factor": 1.029,
+    "kcal": 587.6,
+    "food_frac": 0.669,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "42_jpeg.rf.eb4e55aa2e27f60ea593f7c89d9f6e84.jpg",
+    "class_name": "Hokkien-Mee",
+    "confidence": 0.9317,
+    "portion_factor": 1.027,
+    "kcal": 536.2,
+    "food_frac": 0.668,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "43_jpg.rf.25ab37a97381949ba9220dcffce18f22.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9545,
+    "portion_factor": 1.016,
+    "kcal": 79.3,
+    "food_frac": 0.661,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "43_jpg.rf.25ab37a97381949ba9220dcffce18f22.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9488,
+    "portion_factor": 0.817,
+    "kcal": 65.4,
+    "food_frac": 0.531,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "43_jpg.rf.25ab37a97381949ba9220dcffce18f22.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.7554,
+    "portion_factor": 0.5,
+    "kcal": 347.0,
+    "food_frac": 0.191,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "43_jpg.rf.25ab37a97381949ba9220dcffce18f22.jpg",
+    "class_name": "Chicken-Rendang",
+    "confidence": 0.5994,
+    "portion_factor": 0.839,
+    "kcal": 209.8,
+    "food_frac": 0.545,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "43_jpg.rf.25ab37a97381949ba9220dcffce18f22.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.5497,
+    "portion_factor": 0.5,
+    "kcal": 39.0,
+    "food_frac": 0.17,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "44_jpg.rf.a42b2dec44efd885d2f35772badead6d.jpg",
+    "class_name": "Hokkien-Mee",
+    "confidence": 0.9552,
+    "portion_factor": 0.944,
+    "kcal": 493.0,
+    "food_frac": 0.614,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "44_jpg.rf.f0b7fe9740b4d3dd2e8a6400aeb3b336.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.8809,
+    "portion_factor": 1.02,
+    "kcal": 458.9,
+    "food_frac": 0.663,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "45_jpg.rf.2d78fa1c430631901da032ed241abdcf.jpg",
+    "class_name": "Fried-Rice",
+    "confidence": 0.9671,
+    "portion_factor": 0.894,
+    "kcal": 514.8,
+    "food_frac": 0.581,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "45_jpg.rf.e68c1287aa92b9d023aa7c11d9d18265.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.987,
+    "portion_factor": 1.054,
+    "kcal": 474.4,
+    "food_frac": 0.685,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "4_jpg.rf.3cdac5af335499e15d084d5d0b718380.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9728,
+    "portion_factor": 0.771,
+    "kcal": 100.2,
+    "food_frac": 0.501,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "4_jpg.rf.3cdac5af335499e15d084d5d0b718380.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9676,
+    "portion_factor": 0.963,
+    "kcal": 125.2,
+    "food_frac": 0.626,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "4_jpg.rf.3cdac5af335499e15d084d5d0b718380.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9632,
+    "portion_factor": 1.227,
+    "kcal": 159.5,
+    "food_frac": 0.798,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "4_jpg.rf.3cdac5af335499e15d084d5d0b718380.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.8595,
+    "portion_factor": 0.822,
+    "kcal": 106.8,
+    "food_frac": 0.534,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "4_jpg.rf.3cdac5af335499e15d084d5d0b718380.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.8265,
+    "portion_factor": 1.0,
+    "kcal": 130.0,
+    "food_frac": 0.65,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "50_jpg.rf.fffac78dfef3c29668ef5079d6c7b409.jpg",
+    "class_name": "Roti-Canai",
+    "confidence": 0.8395,
+    "portion_factor": 1.0,
+    "kcal": 300.0,
+    "food_frac": 0.65,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "51_jpg.rf.4797976df89732863de77689f7451942.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9228,
+    "portion_factor": 0.998,
+    "kcal": 77.9,
+    "food_frac": 0.649,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "51_jpg.rf.4797976df89732863de77689f7451942.jpg",
+    "class_name": "Mee-Rebus",
+    "confidence": 0.8681,
+    "portion_factor": 1.15,
+    "kcal": 656.9,
+    "food_frac": 0.748,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "52_jpg.rf.4772d2f3034273abc0632b1b2bf7726e.jpg",
+    "class_name": "Char-Kuey-Teow",
+    "confidence": 0.8826,
+    "portion_factor": 0.881,
+    "kcal": 656.3,
+    "food_frac": 0.573,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "55_jpg.rf.add3e874d57d4d10cefb125215c595c2.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9801,
+    "portion_factor": 0.5,
+    "kcal": 65.0,
+    "food_frac": 0.101,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "55_jpg.rf.add3e874d57d4d10cefb125215c595c2.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9235,
+    "portion_factor": 0.5,
+    "kcal": 65.0,
+    "food_frac": 0.085,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "56_jpg.rf.78d8efcd88616817f6e0e67bce008554.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.9796,
+    "portion_factor": 0.935,
+    "kcal": 420.6,
+    "food_frac": 0.608,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "56_jpg.rf.78d8efcd88616817f6e0e67bce008554.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.9611,
+    "portion_factor": 0.948,
+    "kcal": 426.5,
+    "food_frac": 0.616,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "59_webp.rf.83a4012af9c89d1876f725e75b55d381.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.8298,
+    "portion_factor": 0.562,
+    "kcal": 252.8,
+    "food_frac": 0.365,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "5_jpg.rf.7fb6ad9aac4bd893ddefec31394c64bb.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9478,
+    "portion_factor": 1.402,
+    "kcal": 182.3,
+    "food_frac": 0.912,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "5_jpg.rf.7fb6ad9aac4bd893ddefec31394c64bb.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9372,
+    "portion_factor": 1.168,
+    "kcal": 151.8,
+    "food_frac": 0.759,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "5_jpg.rf.7fb6ad9aac4bd893ddefec31394c64bb.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9231,
+    "portion_factor": 1.421,
+    "kcal": 184.7,
+    "food_frac": 0.924,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "5_jpg.rf.7fb6ad9aac4bd893ddefec31394c64bb.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.8854,
+    "portion_factor": 1.171,
+    "kcal": 152.2,
+    "food_frac": 0.761,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "5_jpg.rf.7fb6ad9aac4bd893ddefec31394c64bb.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.8087,
+    "portion_factor": 0.5,
+    "kcal": 65.0,
+    "food_frac": 0.217,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "5_jpg.rf.7fb6ad9aac4bd893ddefec31394c64bb.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.6096,
+    "portion_factor": 1.222,
+    "kcal": 158.9,
+    "food_frac": 0.795,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "5_jpg.rf.7fb6ad9aac4bd893ddefec31394c64bb.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.4544,
+    "portion_factor": 1.255,
+    "kcal": 163.2,
+    "food_frac": 0.816,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "5_jpg.rf.c142f67762a2463c24636efc7742ec36.jpg",
+    "class_name": "Roti-Canai",
+    "confidence": 0.9717,
+    "portion_factor": 0.993,
+    "kcal": 297.9,
+    "food_frac": 0.645,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "5_jpg.rf.e8eedb6c2682416a7f294facda5926a4.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.9168,
+    "portion_factor": 0.933,
+    "kcal": 647.3,
+    "food_frac": 0.606,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "61_jpg.rf.cc3cd36c0112a472f5d6e473bd650520.jpg",
+    "class_name": "Fried-Rice",
+    "confidence": 0.9789,
+    "portion_factor": 0.968,
+    "kcal": 557.5,
+    "food_frac": 0.629,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "63_jpg.rf.028b72bed2420806ea9d41b4961f17c7.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.9498,
+    "portion_factor": 0.703,
+    "kcal": 316.4,
+    "food_frac": 0.457,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "63_jpg.rf.028b72bed2420806ea9d41b4961f17c7.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.468,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.197,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "63_jpg.rf.3b7a8ca59cf8665eb18f49b5fb5b2115.jpg",
+    "class_name": "Hokkien-Mee",
+    "confidence": 0.9279,
+    "portion_factor": 0.62,
+    "kcal": 323.5,
+    "food_frac": 0.403,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "64_jpeg.rf.e0895d62356cf28b386071d1fab1d37f.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.8416,
+    "portion_factor": 0.98,
+    "kcal": 76.4,
+    "food_frac": 0.637,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "64_jpeg.rf.e0895d62356cf28b386071d1fab1d37f.jpg",
+    "class_name": "Fried-Rice",
+    "confidence": 0.6175,
+    "portion_factor": 1.036,
+    "kcal": 596.7,
+    "food_frac": 0.673,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "65_jpeg.rf.2aae27e83384779c01a6b6a8db881f7c.jpg",
+    "class_name": "Fried-Rice",
+    "confidence": 0.9446,
+    "portion_factor": 1.03,
+    "kcal": 593.2,
+    "food_frac": 0.669,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "65_jpg.rf.618d5e7099308a8ead03889160a18209.jpg",
+    "class_name": "Mee-Rebus",
+    "confidence": 0.8802,
+    "portion_factor": 0.542,
+    "kcal": 309.3,
+    "food_frac": 0.352,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "67_jpg.rf.5e87d9a97722df02b5cc4d9805bb28f4.jpg",
+    "class_name": "Mee-Rebus",
+    "confidence": 0.9401,
+    "portion_factor": 0.62,
+    "kcal": 354.3,
+    "food_frac": 0.403,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "67_jpg.rf.5e87d9a97722df02b5cc4d9805bb28f4.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.7866,
+    "portion_factor": 0.982,
+    "kcal": 76.6,
+    "food_frac": 0.638,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "67_jpg.rf.5e87d9a97722df02b5cc4d9805bb28f4.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.5532,
+    "portion_factor": 0.5,
+    "kcal": 39.0,
+    "food_frac": 0.294,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "68_png.rf.01e793bdf9741b2a9f5a486ae3200fc9.jpg",
+    "class_name": "Mee-Rebus",
+    "confidence": 0.9601,
+    "portion_factor": 0.878,
+    "kcal": 501.3,
+    "food_frac": 0.571,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "68_png.rf.01e793bdf9741b2a9f5a486ae3200fc9.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9392,
+    "portion_factor": 1.082,
+    "kcal": 84.4,
+    "food_frac": 0.703,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "68_webp.rf.4e3279ebf1cbe0bca6dc122fb817d1dd.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9873,
+    "portion_factor": 0.827,
+    "kcal": 107.5,
+    "food_frac": 0.537,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "68_webp.rf.4e3279ebf1cbe0bca6dc122fb817d1dd.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9562,
+    "portion_factor": 0.703,
+    "kcal": 91.5,
+    "food_frac": 0.457,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "68_webp.rf.4e3279ebf1cbe0bca6dc122fb817d1dd.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.9477,
+    "portion_factor": 0.845,
+    "kcal": 109.9,
+    "food_frac": 0.549,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "68_webp.rf.4e3279ebf1cbe0bca6dc122fb817d1dd.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.8117,
+    "portion_factor": 0.882,
+    "kcal": 114.7,
+    "food_frac": 0.573,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "68_webp.rf.4e3279ebf1cbe0bca6dc122fb817d1dd.jpg",
+    "class_name": "Curry-Puff",
+    "confidence": 0.806,
+    "portion_factor": 0.968,
+    "kcal": 125.8,
+    "food_frac": 0.629,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "69_jpg.rf.6cce9ce593c358625936bed1da2ccf18.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9733,
+    "portion_factor": 0.822,
+    "kcal": 12.3,
+    "food_frac": 0.534,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "69_jpg.rf.6cce9ce593c358625936bed1da2ccf18.jpg",
+    "class_name": "Fried-Egg",
+    "confidence": 0.9091,
+    "portion_factor": 1.089,
+    "kcal": 98.0,
+    "food_frac": 0.708,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "69_jpg.rf.6cce9ce593c358625936bed1da2ccf18.jpg",
+    "class_name": "Fried-Rice",
+    "confidence": 0.7219,
+    "portion_factor": 0.92,
+    "kcal": 530.0,
+    "food_frac": 0.598,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "70_jpg.rf.5478c816ded208ce78e419c88d5ebdfd.jpg",
+    "class_name": "Fried-Rice",
+    "confidence": 0.8415,
+    "portion_factor": 0.946,
+    "kcal": 545.1,
+    "food_frac": 0.615,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "70_jpg.rf.5478c816ded208ce78e419c88d5ebdfd.jpg",
+    "class_name": "Fried-Egg",
+    "confidence": 0.8346,
+    "portion_factor": 1.017,
+    "kcal": 91.6,
+    "food_frac": 0.661,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "72_jpg.rf.b0ea21b59cf738f2894158b83f016c78.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.5964,
+    "portion_factor": 0.917,
+    "kcal": 412.6,
+    "food_frac": 0.596,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "72_jpg.rf.b0ea21b59cf738f2894158b83f016c78.jpg",
+    "class_name": "Mee-Siam",
+    "confidence": 0.4765,
+    "portion_factor": 0.927,
+    "kcal": 643.6,
+    "food_frac": 0.603,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "74_webp.rf.324ab668e8608e9ec735f72937c218bb.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.9794,
+    "portion_factor": 1.209,
+    "kcal": 544.1,
+    "food_frac": 0.786,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "8_jpg.rf.3486db9def33ac3071f31aaf8615da5c.jpg",
+    "class_name": "Rice",
+    "confidence": 0.6787,
+    "portion_factor": 1.036,
+    "kcal": 310.7,
+    "food_frac": 0.673,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "8_jpg.rf.3486db9def33ac3071f31aaf8615da5c.jpg",
+    "class_name": "Roti-Canai",
+    "confidence": 0.6629,
+    "portion_factor": 0.876,
+    "kcal": 262.9,
+    "food_frac": 0.57,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "8_jpg.rf.3486db9def33ac3071f31aaf8615da5c.jpg",
+    "class_name": "Roti-Canai",
+    "confidence": 0.5603,
+    "portion_factor": 1.032,
+    "kcal": 309.6,
+    "food_frac": 0.671,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9637,
+    "portion_factor": 0.5,
+    "kcal": 30.0,
+    "food_frac": 0.166,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.958,
+    "portion_factor": 1.033,
+    "kcal": 82.7,
+    "food_frac": 0.672,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9498,
+    "portion_factor": 1.142,
+    "kcal": 89.1,
+    "food_frac": 0.742,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9269,
+    "portion_factor": 0.86,
+    "kcal": 77.4,
+    "food_frac": 0.559,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Fried-Chicken",
+    "confidence": 0.9104,
+    "portion_factor": 0.601,
+    "kcal": 162.2,
+    "food_frac": 0.39,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.7909,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.14,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Rice",
+    "confidence": 0.6851,
+    "portion_factor": 0.648,
+    "kcal": 194.5,
+    "food_frac": 0.421,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Rice",
+    "confidence": 0.623,
+    "portion_factor": 0.5,
+    "kcal": 150.0,
+    "food_frac": 0.243,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Rice",
+    "confidence": 0.6066,
+    "portion_factor": 0.5,
+    "kcal": 150.0,
+    "food_frac": 0.254,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried27_jpg.rf.50a048ad3961cc086c58041ca867a9ae.jpg",
+    "class_name": "Rice",
+    "confidence": 0.5242,
+    "portion_factor": 0.729,
+    "kcal": 218.6,
+    "food_frac": 0.474,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried34_jpg.rf.37744e1626b9491c42812a8ab2fa3cff.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.8788,
+    "portion_factor": 0.5,
+    "kcal": 39.0,
+    "food_frac": 0.056,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried34_jpg.rf.37744e1626b9491c42812a8ab2fa3cff.jpg",
+    "class_name": "Rice",
+    "confidence": 0.8455,
+    "portion_factor": 0.5,
+    "kcal": 150.0,
+    "food_frac": 0.094,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried34_jpg.rf.37744e1626b9491c42812a8ab2fa3cff.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.7884,
+    "portion_factor": 0.643,
+    "kcal": 57.9,
+    "food_frac": 0.418,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried34_jpg.rf.37744e1626b9491c42812a8ab2fa3cff.jpg",
+    "class_name": "Roti-Canai",
+    "confidence": 0.4921,
+    "portion_factor": 0.646,
+    "kcal": 193.8,
+    "food_frac": 0.42,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried34_jpg.rf.37744e1626b9491c42812a8ab2fa3cff.jpg",
+    "class_name": "Chicken-Rendang",
+    "confidence": 0.4484,
+    "portion_factor": 1.004,
+    "kcal": 251.0,
+    "food_frac": 0.652,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried48_jpg.rf.4d732d39643731779359386fa5bf2b79.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9849,
+    "portion_factor": 1.02,
+    "kcal": 79.6,
+    "food_frac": 0.663,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried48_jpg.rf.4d732d39643731779359386fa5bf2b79.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9498,
+    "portion_factor": 0.886,
+    "kcal": 79.7,
+    "food_frac": 0.576,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried48_jpg.rf.4d732d39643731779359386fa5bf2b79.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9469,
+    "portion_factor": 0.888,
+    "kcal": 71.0,
+    "food_frac": 0.577,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried48_jpg.rf.4d732d39643731779359386fa5bf2b79.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.945,
+    "portion_factor": 1.053,
+    "kcal": 63.2,
+    "food_frac": 0.685,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried48_jpg.rf.4d732d39643731779359386fa5bf2b79.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9444,
+    "portion_factor": 1.538,
+    "kcal": 461.5,
+    "food_frac": 1.0,
+    "seg_method": "box"
+  },
+  {
+    "file": "fried48_jpg.rf.4d732d39643731779359386fa5bf2b79.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.8306,
+    "portion_factor": 0.881,
+    "kcal": 13.2,
+    "food_frac": 0.573,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried64_jpg.rf.9d5de1613cc70ed31f49d8106f8daa5d.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9721,
+    "portion_factor": 1.101,
+    "kcal": 99.1,
+    "food_frac": 0.716,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried64_jpg.rf.9d5de1613cc70ed31f49d8106f8daa5d.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9717,
+    "portion_factor": 0.5,
+    "kcal": 150.0,
+    "food_frac": 0.28,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried64_jpg.rf.9d5de1613cc70ed31f49d8106f8daa5d.jpg",
+    "class_name": "Fried-Chicken",
+    "confidence": 0.8944,
+    "portion_factor": 1.181,
+    "kcal": 318.8,
+    "food_frac": 0.768,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried64_jpg.rf.9d5de1613cc70ed31f49d8106f8daa5d.jpg",
+    "class_name": "Fried-Chicken",
+    "confidence": 0.8366,
+    "portion_factor": 1.078,
+    "kcal": 291.1,
+    "food_frac": 0.701,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried64_jpg.rf.9d5de1613cc70ed31f49d8106f8daa5d.jpg",
+    "class_name": "Rice",
+    "confidence": 0.8139,
+    "portion_factor": 0.5,
+    "kcal": 150.0,
+    "food_frac": 0.092,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried6_jpg.rf.b1f98f67fdf3b7cf92493bc38a7fe563.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9702,
+    "portion_factor": 0.854,
+    "kcal": 76.8,
+    "food_frac": 0.555,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried6_jpg.rf.b1f98f67fdf3b7cf92493bc38a7fe563.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9673,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.274,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried6_jpg.rf.b1f98f67fdf3b7cf92493bc38a7fe563.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9659,
+    "portion_factor": 0.5,
+    "kcal": 30.0,
+    "food_frac": 0.237,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried6_jpg.rf.b1f98f67fdf3b7cf92493bc38a7fe563.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9539,
+    "portion_factor": 1.156,
+    "kcal": 90.2,
+    "food_frac": 0.751,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried6_jpg.rf.b1f98f67fdf3b7cf92493bc38a7fe563.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9385,
+    "portion_factor": 1.138,
+    "kcal": 341.4,
+    "food_frac": 0.74,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried6_jpg.rf.b1f98f67fdf3b7cf92493bc38a7fe563.jpg",
+    "class_name": "Fried-Chicken",
+    "confidence": 0.931,
+    "portion_factor": 0.601,
+    "kcal": 162.4,
+    "food_frac": 0.391,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried6_jpg.rf.b1f98f67fdf3b7cf92493bc38a7fe563.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9264,
+    "portion_factor": 0.927,
+    "kcal": 74.1,
+    "food_frac": 0.602,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9653,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.103,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9534,
+    "portion_factor": 0.727,
+    "kcal": 218.0,
+    "food_frac": 0.472,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9226,
+    "portion_factor": 0.961,
+    "kcal": 86.4,
+    "food_frac": 0.624,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9158,
+    "portion_factor": 0.5,
+    "kcal": 30.0,
+    "food_frac": 0.102,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9158,
+    "portion_factor": 0.81,
+    "kcal": 64.8,
+    "food_frac": 0.527,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9042,
+    "portion_factor": 0.768,
+    "kcal": 46.1,
+    "food_frac": 0.499,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+    "class_name": "Fried-Egg",
+    "confidence": 0.8341,
+    "portion_factor": 1.004,
+    "kcal": 90.3,
+    "food_frac": 0.653,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "fried8_webp.rf.c9590703fe99d737b178433b5032e301.jpg",
+    "class_name": "Fried-Chicken",
+    "confidence": 0.8032,
+    "portion_factor": 1.024,
+    "kcal": 276.4,
+    "food_frac": 0.665,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain10_jpg.rf.21927fe4e929db2eb1283676a8d6c2f8.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9555,
+    "portion_factor": 0.997,
+    "kcal": 59.8,
+    "food_frac": 0.648,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain10_jpg.rf.21927fe4e929db2eb1283676a8d6c2f8.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9526,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.104,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain10_jpg.rf.21927fe4e929db2eb1283676a8d6c2f8.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9504,
+    "portion_factor": 1.096,
+    "kcal": 328.9,
+    "food_frac": 0.713,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain10_jpg.rf.21927fe4e929db2eb1283676a8d6c2f8.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9381,
+    "portion_factor": 1.119,
+    "kcal": 100.7,
+    "food_frac": 0.727,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain10_jpg.rf.21927fe4e929db2eb1283676a8d6c2f8.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9006,
+    "portion_factor": 1.069,
+    "kcal": 96.2,
+    "food_frac": 0.695,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain10_jpg.rf.21927fe4e929db2eb1283676a8d6c2f8.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.7123,
+    "portion_factor": 1.149,
+    "kcal": 92.0,
+    "food_frac": 0.747,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain10_jpg.rf.21927fe4e929db2eb1283676a8d6c2f8.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.4591,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.087,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain1_jpeg.rf.9fbb783e2deb6af4893fc8f1c10666d2.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9891,
+    "portion_factor": 0.896,
+    "kcal": 69.9,
+    "food_frac": 0.583,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain1_jpeg.rf.9fbb783e2deb6af4893fc8f1c10666d2.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9731,
+    "portion_factor": 0.538,
+    "kcal": 8.1,
+    "food_frac": 0.349,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain1_jpeg.rf.9fbb783e2deb6af4893fc8f1c10666d2.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9644,
+    "portion_factor": 0.758,
+    "kcal": 68.2,
+    "food_frac": 0.492,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain1_jpeg.rf.9fbb783e2deb6af4893fc8f1c10666d2.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9571,
+    "portion_factor": 1.538,
+    "kcal": 461.5,
+    "food_frac": 1.0,
+    "seg_method": "box"
+  },
+  {
+    "file": "plain1_jpeg.rf.9fbb783e2deb6af4893fc8f1c10666d2.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9557,
+    "portion_factor": 1.127,
+    "kcal": 90.1,
+    "food_frac": 0.732,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain1_jpeg.rf.9fbb783e2deb6af4893fc8f1c10666d2.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9458,
+    "portion_factor": 1.155,
+    "kcal": 69.3,
+    "food_frac": 0.751,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9799,
+    "portion_factor": 1.23,
+    "kcal": 110.7,
+    "food_frac": 0.8,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9676,
+    "portion_factor": 1.066,
+    "kcal": 319.8,
+    "food_frac": 0.693,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9671,
+    "portion_factor": 0.5,
+    "kcal": 39.0,
+    "food_frac": 0.092,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9454,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.104,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9442,
+    "portion_factor": 0.689,
+    "kcal": 55.1,
+    "food_frac": 0.448,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9331,
+    "portion_factor": 0.669,
+    "kcal": 40.1,
+    "food_frac": 0.435,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9296,
+    "portion_factor": 0.5,
+    "kcal": 30.0,
+    "food_frac": 0.168,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.7813,
+    "portion_factor": 0.831,
+    "kcal": 49.9,
+    "food_frac": 0.54,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.7681,
+    "portion_factor": 0.6,
+    "kcal": 36.0,
+    "food_frac": 0.39,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain24_jpg.rf.08378282b0f9686393708c0143d0cfeb.jpg",
+    "class_name": "Lo-Mein",
+    "confidence": 0.4925,
+    "portion_factor": 0.5,
+    "kcal": 225.0,
+    "food_frac": 0.145,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain39_jpg.rf.3dbd8b5266e0bc893f0cb130c2c63036.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9742,
+    "portion_factor": 0.5,
+    "kcal": 39.0,
+    "food_frac": 0.292,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain39_jpg.rf.3dbd8b5266e0bc893f0cb130c2c63036.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9155,
+    "portion_factor": 0.925,
+    "kcal": 83.2,
+    "food_frac": 0.601,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain39_jpg.rf.3dbd8b5266e0bc893f0cb130c2c63036.jpg",
+    "class_name": "Rice",
+    "confidence": 0.8699,
+    "portion_factor": 0.5,
+    "kcal": 150.0,
+    "food_frac": 0.063,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain39_jpg.rf.3dbd8b5266e0bc893f0cb130c2c63036.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.5088,
+    "portion_factor": 0.523,
+    "kcal": 40.8,
+    "food_frac": 0.34,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain58_jpg.rf.7b2020c76a17039db777e3865fcab7ae.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9843,
+    "portion_factor": 0.893,
+    "kcal": 69.6,
+    "food_frac": 0.58,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain58_jpg.rf.7b2020c76a17039db777e3865fcab7ae.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9766,
+    "portion_factor": 1.43,
+    "kcal": 128.7,
+    "food_frac": 0.929,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain58_jpg.rf.7b2020c76a17039db777e3865fcab7ae.jpg",
+    "class_name": "Rice",
+    "confidence": 0.971,
+    "portion_factor": 1.154,
+    "kcal": 346.2,
+    "food_frac": 0.75,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain58_jpg.rf.7b2020c76a17039db777e3865fcab7ae.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9653,
+    "portion_factor": 0.809,
+    "kcal": 12.1,
+    "food_frac": 0.526,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain58_jpg.rf.7b2020c76a17039db777e3865fcab7ae.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.9439,
+    "portion_factor": 0.847,
+    "kcal": 50.8,
+    "food_frac": 0.55,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain58_jpg.rf.7b2020c76a17039db777e3865fcab7ae.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9417,
+    "portion_factor": 1.45,
+    "kcal": 116.0,
+    "food_frac": 0.942,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain60_webp.rf.44f6e28f0f4867cf55d413ddaea7d82c.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9696,
+    "portion_factor": 0.637,
+    "kcal": 191.0,
+    "food_frac": 0.414,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain60_webp.rf.44f6e28f0f4867cf55d413ddaea7d82c.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9466,
+    "portion_factor": 0.549,
+    "kcal": 43.9,
+    "food_frac": 0.357,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain60_webp.rf.44f6e28f0f4867cf55d413ddaea7d82c.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9325,
+    "portion_factor": 1.124,
+    "kcal": 87.7,
+    "food_frac": 0.731,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "plain60_webp.rf.44f6e28f0f4867cf55d413ddaea7d82c.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.8606,
+    "portion_factor": 1.141,
+    "kcal": 102.7,
+    "food_frac": 0.741,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "plain60_webp.rf.44f6e28f0f4867cf55d413ddaea7d82c.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.6608,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.106,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang12_jpg.rf.9dbe6c447e212ee9582edf4dde9f5569.jpg",
+    "class_name": "Chicken-Rendang",
+    "confidence": 0.8918,
+    "portion_factor": 0.847,
+    "kcal": 211.8,
+    "food_frac": 0.551,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang12_jpg.rf.9dbe6c447e212ee9582edf4dde9f5569.jpg",
+    "class_name": "Rice",
+    "confidence": 0.7655,
+    "portion_factor": 0.831,
+    "kcal": 249.2,
+    "food_frac": 0.54,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang12_jpg.rf.9dbe6c447e212ee9582edf4dde9f5569.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.7037,
+    "portion_factor": 0.786,
+    "kcal": 61.3,
+    "food_frac": 0.511,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang17_jpeg.rf.03052dd3874f2f280a94fd791dde935f.jpg",
+    "class_name": "Chicken-Rendang",
+    "confidence": 0.9096,
+    "portion_factor": 0.797,
+    "kcal": 199.3,
+    "food_frac": 0.518,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang17_jpeg.rf.03052dd3874f2f280a94fd791dde935f.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.8951,
+    "portion_factor": 1.069,
+    "kcal": 64.1,
+    "food_frac": 0.695,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang17_jpeg.rf.03052dd3874f2f280a94fd791dde935f.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.8814,
+    "portion_factor": 0.5,
+    "kcal": 39.0,
+    "food_frac": 0.248,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang17_jpeg.rf.03052dd3874f2f280a94fd791dde935f.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.8591,
+    "portion_factor": 0.5,
+    "kcal": 7.5,
+    "food_frac": 0.247,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang17_jpeg.rf.03052dd3874f2f280a94fd791dde935f.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.8095,
+    "portion_factor": 1.004,
+    "kcal": 90.4,
+    "food_frac": 0.653,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang17_jpeg.rf.03052dd3874f2f280a94fd791dde935f.jpg",
+    "class_name": "Rice",
+    "confidence": 0.7277,
+    "portion_factor": 0.608,
+    "kcal": 182.5,
+    "food_frac": 0.395,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang17_jpeg.rf.03052dd3874f2f280a94fd791dde935f.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.5488,
+    "portion_factor": 1.109,
+    "kcal": 88.7,
+    "food_frac": 0.721,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang31_jpg.rf.706620a50d2d42ea7f9d3498e8f0d65b.jpg",
+    "class_name": "Chicken-Rendang",
+    "confidence": 0.9747,
+    "portion_factor": 0.993,
+    "kcal": 248.4,
+    "food_frac": 0.646,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang31_jpg.rf.706620a50d2d42ea7f9d3498e8f0d65b.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.9658,
+    "portion_factor": 1.223,
+    "kcal": 97.9,
+    "food_frac": 0.795,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang31_jpg.rf.706620a50d2d42ea7f9d3498e8f0d65b.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9571,
+    "portion_factor": 1.164,
+    "kcal": 90.8,
+    "food_frac": 0.756,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang31_jpg.rf.706620a50d2d42ea7f9d3498e8f0d65b.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9508,
+    "portion_factor": 0.755,
+    "kcal": 68.0,
+    "food_frac": 0.491,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang31_jpg.rf.706620a50d2d42ea7f9d3498e8f0d65b.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9459,
+    "portion_factor": 0.539,
+    "kcal": 8.1,
+    "food_frac": 0.351,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang31_jpg.rf.706620a50d2d42ea7f9d3498e8f0d65b.jpg",
+    "class_name": "Rice",
+    "confidence": 0.8033,
+    "portion_factor": 0.5,
+    "kcal": 150.0,
+    "food_frac": 0.194,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang46_jpg.rf.967adac9ec22e155ca85e2ea12b0b289.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.9883,
+    "portion_factor": 0.5,
+    "kcal": 39.0,
+    "food_frac": 0.233,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang46_jpg.rf.967adac9ec22e155ca85e2ea12b0b289.jpg",
+    "class_name": "Rice",
+    "confidence": 0.974,
+    "portion_factor": 0.737,
+    "kcal": 221.1,
+    "food_frac": 0.479,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang46_jpg.rf.967adac9ec22e155ca85e2ea12b0b289.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9604,
+    "portion_factor": 1.359,
+    "kcal": 122.3,
+    "food_frac": 0.883,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang46_jpg.rf.967adac9ec22e155ca85e2ea12b0b289.jpg",
+    "class_name": "Chicken-Rendang",
+    "confidence": 0.9066,
+    "portion_factor": 0.799,
+    "kcal": 199.7,
+    "food_frac": 0.519,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang46_jpg.rf.967adac9ec22e155ca85e2ea12b0b289.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.6674,
+    "portion_factor": 1.071,
+    "kcal": 96.4,
+    "food_frac": 0.696,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang46_jpg.rf.967adac9ec22e155ca85e2ea12b0b289.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.587,
+    "portion_factor": 0.88,
+    "kcal": 79.2,
+    "food_frac": 0.572,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang46_jpg.rf.967adac9ec22e155ca85e2ea12b0b289.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.4099,
+    "portion_factor": 0.863,
+    "kcal": 51.8,
+    "food_frac": 0.561,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang57_webp.rf.1982140177e2fa9e89dd682a7937522f.jpg",
+    "class_name": "Chicken-Rendang",
+    "confidence": 0.9444,
+    "portion_factor": 1.347,
+    "kcal": 336.8,
+    "food_frac": 0.876,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang57_webp.rf.1982140177e2fa9e89dd682a7937522f.jpg",
+    "class_name": "Rice",
+    "confidence": 0.637,
+    "portion_factor": 1.078,
+    "kcal": 323.5,
+    "food_frac": 0.701,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang57_webp.rf.1982140177e2fa9e89dd682a7937522f.jpg",
+    "class_name": "Sambal",
+    "confidence": 0.6061,
+    "portion_factor": 1.205,
+    "kcal": 96.4,
+    "food_frac": 0.783,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang62_jpg.rf.a28570796e760745bf06f74281be4f76.jpg",
+    "class_name": "Boiled-Egg",
+    "confidence": 0.991,
+    "portion_factor": 0.928,
+    "kcal": 72.4,
+    "food_frac": 0.603,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang62_jpg.rf.a28570796e760745bf06f74281be4f76.jpg",
+    "class_name": "Rice",
+    "confidence": 0.9815,
+    "portion_factor": 1.092,
+    "kcal": 327.7,
+    "food_frac": 0.71,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang62_jpg.rf.a28570796e760745bf06f74281be4f76.jpg",
+    "class_name": "Peanuts",
+    "confidence": 0.9566,
+    "portion_factor": 0.971,
+    "kcal": 87.4,
+    "food_frac": 0.631,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang62_jpg.rf.a28570796e760745bf06f74281be4f76.jpg",
+    "class_name": "Slices-Cucumber",
+    "confidence": 0.9462,
+    "portion_factor": 0.923,
+    "kcal": 13.8,
+    "food_frac": 0.6,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang62_jpg.rf.a28570796e760745bf06f74281be4f76.jpg",
+    "class_name": "Anchovies",
+    "confidence": 0.8557,
+    "portion_factor": 0.889,
+    "kcal": 53.4,
+    "food_frac": 0.578,
+    "seg_method": "hsv_otsu"
+  },
+  {
+    "file": "rendang62_jpg.rf.a28570796e760745bf06f74281be4f76.jpg",
+    "class_name": "Fried-Chicken",
+    "confidence": 0.6761,
+    "portion_factor": 0.735,
+    "kcal": 198.4,
+    "food_frac": 0.478,
+    "seg_method": "grabcut"
+  },
+  {
+    "file": "rendang62_jpg.rf.a28570796e760745bf06f74281be4f76.jpg",
+    "class_name": "Fried-Chicken",
+    "confidence": 0.6303,
+    "portion_factor": 0.804,
+    "kcal": 217.1,
+    "food_frac": 0.523,
+    "seg_method": "grabcut"
+  }
+]
