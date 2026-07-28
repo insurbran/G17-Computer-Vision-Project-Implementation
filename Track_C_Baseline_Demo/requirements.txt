@@ -1,0 +1,21 @@
+# Track C -- baseline classifier + demo
+#
+# torch/torchvision: install the build that matches your machine FIRST, from
+# https://pytorch.org/get-started/locally/ -- the plain `pip install torch` is
+# CPU-only, which trains but slowly. If you have an NVIDIA GPU, get the CUDA
+# build or you will wait ~15 min per epoch instead of ~30 sec.
+torch>=2.0
+torchvision>=0.15
+
+# detector (Track A's model, loaded by the demo)
+ultralytics>=8.0
+
+# demo UI
+streamlit>=1.30
+
+# shared with Track B -- versions kept compatible with its requirements.txt
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pillow>=10.0

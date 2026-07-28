@@ -1,0 +1,20 @@
+# Repo-root ignores for G17 CSC3014.
+
+# Model weights. best.pt is ~6 MB and regenerable by retraining; Track C's
+# classifier checkpoint is ~16 MB. Neither belongs in git.
+*.pt
+
+# The Roboflow export (~60 MB, 1819 images). The folder name depends on how it
+# was unzipped, so both spellings are covered.
+dataset/
+Malaysian Food Recognition*/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Scratch: files staged for manual deletion (agent tooling cannot rm).
+_to_delete/

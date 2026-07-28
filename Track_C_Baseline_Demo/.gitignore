@@ -1,0 +1,9 @@
+# Track C -- everything here is regenerable from the scripts.
+outputs/
+__pycache__/
+*.pyc
+
+# Large inputs live at the repo root, not in this folder, but listed here as a
+# reminder that they are deliberately not committed:
+#   ../best.pt      (from Oscar, ~6 MB)
+#   ../dataset/     (from Roboflow)
