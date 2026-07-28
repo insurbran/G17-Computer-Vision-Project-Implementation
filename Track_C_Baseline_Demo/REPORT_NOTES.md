@@ -185,8 +185,32 @@ Brandon's evidence is the worst-5 tail, this is the aggregate.
 - `expected_kcal` was hand-corrected by a group member, so "table error" in §6
   bundles genuine portion variation with annotation judgment.
 - 17 classes only. Anything else is undetectable, not misdetected.
-- Training images are 320x320; demo behaviour on large phone photos will differ.
 - Calorie figures are estimates. Ground truth exists for the 76 test images only.
+
+**Demo behaviour on phone photos — measured, not assumed.** The whole pipeline was
+replayed headlessly on real test images at a range of framings. The limitation is
+**not resolution**; it is **how much of the frame the food occupies**.
+
+```
+plate scaled and pasted into a 4032x3024 frame, detections at conf 0.40
+subject area     fried34   fried27   plain24
+   75%              6        10         9        healthy
+   54%              3         9         8
+   37%              2         9         7
+   23%              1        10         7
+   12%              1         1         7        degrading
+    7%              0         0         0        total failure
+```
+
+Pure upscaling is harmless — a 320x320 image enlarged to 3024x3024 returns the
+same 5 detections, because YOLO resizes to 640 internally. Two things *do* break
+it: **aspect-ratio distortion** (stretching to 4:3 dropped 5 detections to 3;
+letterboxing instead preserved all 6) and **standing back from the plate**. Below
+roughly 10% of frame area, detection returns nothing at all.
+
+Operational guidance for the demo: **fill the frame with the plate.** The
+practical cause is the training distribution — every training image is a tightly
+cropped food photo, so a wide table shot is far outside it.
 
 ## 8. Figures available
 
