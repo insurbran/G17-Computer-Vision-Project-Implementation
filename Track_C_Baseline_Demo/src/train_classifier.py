@@ -6,19 +6,23 @@ This is the BASELINE the report compares detection against.
 
 WHY EFFICIENTNETB0 AND NOT RESNET50
 -----------------------------------
-    YOLOv8n        =  3.2M parameters   (Track A's detector)
-    EfficientNetB0 =  5.3M parameters   <- what we use
-    ResNet50       = 25.6M parameters
+    YOLOv8n        =  3.01M parameters   (Track A's detector, counted from best.pt)
+    EfficientNetB0 =  4.03M parameters   <- what we use, with a 17-class head
+    ResNet50       = 23.5M parameters    (17-class head, for comparison)
+
+Counted with a 17-class head so the comparison is like-for-like. The commonly
+quoted "EfficientNetB0 = 5.3M" is the stock 1000-class ImageNet model; replacing
+that head with 17 classes removes 1.26M parameters.
 
 The point of this baseline is to demonstrate a STRUCTURAL limitation -- a
 single-label classifier cannot enumerate the items on a plate, so it cannot
 feed Track B -- not to show that YOLO extracts better features. If we picked a
 weaker or smaller model, the obvious objection is "you handicapped the
-baseline." EfficientNetB0 gives the classifier ~1.7x MORE capacity than the
+baseline." EfficientNetB0 gives the classifier ~1.34x MORE capacity than the
 detector it is being compared against, in the same order of magnitude. When it
 still loses, that objection is not available.
 
-ResNet50 is the more conventional baseline, but at 25.6M parameters on ~1600
+ResNet50 is the more conventional baseline, but at 23.5M parameters on ~1600
 training images it overfits hard and you would spend your week fighting
 regularisation instead of writing the report.
 

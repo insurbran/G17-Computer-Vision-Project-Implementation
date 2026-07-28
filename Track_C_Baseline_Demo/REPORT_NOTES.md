@@ -34,14 +34,18 @@ label(image) = class of the largest annotated box (normalised w x h)
 **2.2 Model capacity — why EfficientNetB0, not ResNet50.**
 
 ```
-YOLOv8n        =  3.0M parameters   (Track A's detector, verified from best.pt)
-EfficientNetB0 =  5.3M parameters   <- our baseline
-ResNet50       = 25.6M parameters
+YOLOv8n         = 3.01M parameters   (Track A's detector, counted from best.pt)
+EfficientNetB0  = 4.03M parameters   <- our baseline, 17-class head
+ResNet50        = 23.5M parameters   (17-class head, for comparison)
 ```
 
+All three counted with a 17-class head so the comparison is like-for-like. Note
+that the widely quoted "EfficientNetB0 = 5.3M" is the stock ImageNet model with a
+1000-class head; swapping that for 17 classes removes 1.26M parameters.
+
 The claim being tested is a *structural* limitation, not a feature-quality one.
-Giving the baseline ~1.8x more capacity than the detector it is compared against
-removes the "you handicapped the baseline" objection in advance. ResNet50 at 25.6M
+Giving the baseline ~1.34x more capacity than the detector it is compared against
+removes the "you handicapped the baseline" objection in advance. ResNet50 at 23.5M
 parameters on 1593 training images overfits badly.
 
 **2.3 Training.** Two-phase fine-tune (3 epochs frozen-backbone head warm-up, then

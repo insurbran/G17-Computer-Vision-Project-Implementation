@@ -89,15 +89,19 @@ whole argument.
 **EfficientNetB0, not ResNet50:**
 
 ```
-YOLOv8n        =  3.2M params   (the detector we compare against)
-EfficientNetB0 =  5.3M params   <- ours
-ResNet50       = 25.6M params
+YOLOv8n         = 3.01M parameters   (Track A's detector, counted from best.pt)
+EfficientNetB0  = 4.03M parameters   <- our baseline, 17-class head
+ResNet50        = 23.5M parameters   (17-class head, for comparison)
 ```
 
+All three counted with a 17-class head so the comparison is like-for-like. Note
+that the widely quoted "EfficientNetB0 = 5.3M" is the stock ImageNet model with a
+1000-class head; swapping that for 17 classes removes 1.26M parameters.
+
 The point is a *structural* limitation — one output slot cannot enumerate a
-plate — not that YOLO extracts better features. Giving the classifier ~1.7×
+plate — not that YOLO extracts better features. Giving the classifier ~1.34×
 more capacity than the detector kills the "you handicapped the baseline"
-objection before anyone raises it. ResNet50 at 25.6M params on ~1600 images
+objection before anyone raises it. ResNet50 at 23.5M params on ~1600 images
 just overfits and eats your week.
 
 Two-phase fine-tune: freeze the backbone and warm up the new head (so its
