@@ -60,9 +60,11 @@ pip install -r requirements.txt
 python src/derive_labels.py         # boxes -> one label per image
 python src/train_classifier.py      # fine-tune EfficientNetB0 (~10 min on MPS)
 python src/predict_classifier.py    # classifier output on the test split
-python src/compare.py               # the three metrics + comparison table
-python src/error_decomposition.py   # table error vs detector error
-python src/make_figures.py          # report figures
+python src/compare.py                 # the three metrics + comparison table
+python src/classifier_diagnostics.py  # Macro-F1, per-class, confusion matrix
+python src/error_decomposition.py     # table error vs detector error
+python src/efficiency_benchmark.py    # latency, file size, throughput
+python src/make_figures.py            # report figures
 
 streamlit run app.py                # the demo
 ```
@@ -164,6 +166,31 @@ the entire headroom better detection could ever buy.
 It answers a question `compare.py` raises but cannot explain — why the detector's
 calorie MAE looks *better* on multi-item plates than single-item ones. Full
 analysis in `REPORT_NOTES.md` §6.
+
+### `classifier_diagnostics.py` — Macro-F1 and the confusion matrix
+
+Section 9.3 of our literature review commits us to reporting "Top-1 accuracy,
+Macro-F1 (for rare dishes/Malaysian foods), and a confusion matrix". Top-1 alone
+was not enough. This produces the other two.
+
+The confusion matrix matters most: Section 7.3 of the review records that **none
+of the ten papers surveyed publishes one**, leaving "which foods get confused with
+which largely unanswered." Publishing it is a stated contribution, not
+housekeeping. Track A supplies the detection-side matrix; this supplies the
+classification side.
+
+Headline: **Macro-F1 0.554 against Top-1 0.724.** The 0.169 gap is exactly the
+effect the review predicted — a strong overall accuracy concealing total failure
+on rare classes. Every class scoring 1.000 is a standalone noodle or bread dish;
+every class scoring 0.000 is a nasi lemak component.
+
+### `efficiency_benchmark.py` — inference cost
+
+Section 8.5 names deployment cost as an unresolved gap and Section 9.3 asks for a
+model that runs on a phone. Parameters are a proxy for size, not speed, so this
+measures wall-clock latency and file size directly. The detector has **fewer**
+parameters yet runs **2.04x slower** — reporting parameters alone would have
+implied the opposite conclusion.
 
 ### `app.py` — the demo
 
