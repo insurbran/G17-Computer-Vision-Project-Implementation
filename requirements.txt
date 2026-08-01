@@ -1,0 +1,20 @@
+# G17 - one environment for all three tracks.
+#
+# torch/torchvision (Track C classifier): install the build that matches your
+# machine FIRST from https://pytorch.org/get-started/locally/ - plain
+# `pip install torch` is CPU-only. With an NVIDIA GPU, get the CUDA build.
+torch>=2.0
+torchvision>=0.15
+
+# Track A detector (also loaded by the Track C demo)
+ultralytics>=8.0
+
+# Track C demo UI
+streamlit>=1.30
+
+# Tracks A/B/C shared
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pillow>=10.0

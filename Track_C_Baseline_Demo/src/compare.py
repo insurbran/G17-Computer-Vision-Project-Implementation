@@ -72,14 +72,14 @@ import config as cfg
 
 def load_calorie_table():
     cfg.require(cfg.CALORIE_TABLE, "Track B's calorie table",
-                "It ships in the repo at Part_B_Calories/data/calorie_table.csv")
+                "It ships in the repo at Track_B_Calories/data/calorie_table.csv")
     with open(cfg.CALORIE_TABLE, newline="", encoding="utf-8") as f:
         return {r["class_name"]: float(r["kcal_per_portion"]) for r in csv.DictReader(f)}
 
 
 def load_expected_kcal():
     cfg.require(cfg.GROUND_TRUTH, "Track B's ground truth",
-                "It ships in the repo at Part_B_Calories/data/ground_truth.csv")
+                "It ships in the repo at Track_B_Calories/data/ground_truth.csv")
     out = {}
     with open(cfg.GROUND_TRUTH, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
@@ -93,7 +93,7 @@ def load_expected_kcal():
 def load_detections(conf: float):
     """image_id -> [ {class, conf, area}, ... ] above the confidence floor."""
     cfg.require(cfg.PREDICTIONS_JSON, "Track A's predictions.json",
-                "It ships in the repo at Part_B_Calories/from_A/predictions.json")
+                "It ships in the repo at Track_B_Calories/from_A/predictions.json")
     data = json.loads(cfg.PREDICTIONS_JSON.read_text(encoding="utf-8"))
     out = {}
     for entry in data["predictions"]:

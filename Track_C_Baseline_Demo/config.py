@@ -8,7 +8,7 @@ Layout this assumes (matches how the repo is already organised):
 
     G17-Computer-Vision-Project-Implementation/
         Track_A_Detection/          <- Oscar's scripts
-        Part_B_Calories/            <- Brandon's pipeline
+        Track_B_Calories/            <- Brandon's pipeline
         Track_C_Baseline_Demo/      <- this folder
         dataset/                    <- you download this (Roboflow, gitignored)
         best.pt                     <- you get this from Oscar (gitignored)
@@ -57,7 +57,7 @@ DATASET = _find_dataset(REPO)
 
 # Track B's folder. We import Brandon's segmentation + calorie code from here
 # rather than copying it, so his fixes reach us automatically.
-PART_B = REPO / "Part_B_Calories"
+PART_B = REPO / "Track_B_Calories"
 CALORIE_TABLE = PART_B / "data" / "calorie_table.csv"
 GROUND_TRUTH = PART_B / "data" / "ground_truth.csv"
 PART_B_SRC = PART_B / "src"
